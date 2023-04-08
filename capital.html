@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Testing Functions</title>
+</head>
+<body>
+	<script>
+		function capitalize(str) {
+			return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+		}
+
+		// Testing capitalize function
+		console.log(capitalize("HELLO")); // "Hello"
+		console.log(capitalize("hello")); // "Hello"
+		console.log(capitalize("hElLo")); // "Hello"
+	</script>
+</body>
+</html>
